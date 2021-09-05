@@ -12,7 +12,7 @@ it's reasonably self-explanatory. There's some
 [raw text data](textdata/) from Beatrix Potter, Brothers Grimm and Lewis Carrol.
 
 I used a pre-trained model from the [Huggingface transformers](https://huggingface.co/transformers/) 
-library  , but tried to do as much 
+library, but tried to do as much 
 of this in "raw" PyTorch as I could, just to go through the exercise. As I'm not a software engineer
 by training, I sadly found the Huggingface
 source code a bit hard to parse. It's an excellent, indeed amazing, library ... but it's rather large, 
