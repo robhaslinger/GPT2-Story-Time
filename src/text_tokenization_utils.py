@@ -16,7 +16,7 @@ def tokenize_longform_text(raw_text_paths: list,
     # TODO: Look into methods of text augmentation, put this in as a placeholder
 
     # find correct block size of the tokenizer
-    block_size = block_size - (tokenizer.max_len - tokenizer.max_len_single_sentence)
+    block_size = block_size - (tokenizer.model_max_length - tokenizer.max_len_single_sentence)
 
     # check that all the text file paths actually files
     for text_file in raw_text_paths:
